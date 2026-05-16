@@ -1,0 +1,10 @@
+# In root 22MIS7157/
+cat > .gitignore << EOF
+node_modules/
+.env
+.env.local
+.next/
+dist/
+build/
+*.log
+EOF
